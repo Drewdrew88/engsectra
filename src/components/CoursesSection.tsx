@@ -153,7 +153,7 @@ export const CoursesSection = () => {
 
         <div className="mt-12 text-center">
           <Button variant="hero" size="xl" asChild>
-            <a href="https://wa.me/5511951214359?text=Olá! Gostaria de saber mais sobre os cursos disponíveis." target="_blank" rel="noopener noreferrer">
+            <a href="/cursos">
               Ver Todos os Cursos
               <ArrowRight size={20} />
             </a>

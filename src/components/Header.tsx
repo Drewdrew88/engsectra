@@ -4,12 +4,12 @@ import { Button } from '@/components/ui/button';
 import logo from '@/assets/logo-engsegtra.png';
 
 const navLinks = [
-  { name: 'Início', href: '#home' },
-  { name: 'Quem Somos', href: '#about' },
-  { name: 'NR 2026', href: '#legislation' },
-  { name: 'Cursos', href: '#courses' },
-  { name: 'Notícias', href: '#news' },
-  { name: 'Contato', href: '#contact' },
+  { name: 'Início', href: '/' },
+  { name: 'Quem Somos', href: '/#about' },
+  { name: 'NR 2026', href: '/#legislation' },
+  { name: 'Cursos', href: '/cursos' },
+  { name: 'Notícias', href: '/#news' },
+  { name: 'Contato', href: '/#contact' },
 ];
 
 export const Header = () => {
@@ -52,8 +52,8 @@ export const Header = () => {
       {/* Main nav */}
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <a href="#home" className="flex items-center">
-            <img src={logo} alt="ENGSEGTRA - Engenharia de Segurança do Trabalho" className="h-12 md:h-14" />
+          <a href="/" className="flex items-center">
+            <img src={logo} alt="ENGSEGTRA - Engenharia de Segurança do Trabalho" className="h-16 md:h-20" />
           </a>
 
           {/* Desktop Nav */}
